@@ -1,0 +1,334 @@
+body {
+    background-color: #21252b;
+    overflow: hidden;
+    padding: 50px;
+    padding-top: 10px;
+    user-select: none;
+}
+
+.HeadBox {
+    background-color: #282c34;
+    width: 100%;
+    height: 200px;
+    padding-top: 25px;
+}
+
+.TitleDisplay {
+    background-color: #262a31;
+    display: inline-block;
+    margin-left: 50px;
+    width: 300px;
+    height: 150px;
+}
+
+.titleHeader {
+    background-color: inherit;
+    display: table;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 35px;
+    color: goldenrod;
+    font-family: sans-serif, monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.barHighlight {
+    width: 100%;
+    height: 10px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 0px;
+    transition: width .25s linear;
+    background-color: goldenrod;
+}
+
+.underline {
+    background-color: goldenrod;
+    display: block;
+    height: 7px;
+    margin: 0 auto;
+    width: 0;
+    border-radius: 90%;
+    transition: width .25s linear;
+}
+
+.titleHeader:hover>.underline,
+.active>.underline {
+    width: 100%;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+    filter: brightness(150%);
+}
+
+.SnacksNSides {
+    background-color: #262a31;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 450px;
+    height: 150px;
+}
+
+.ExtraValue {
+    background-color: #262a31;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 450px;
+    height: 150px;
+}
+
+.Desserts {
+    background-color: #262a31;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 450px;
+    height: 150px;
+}
+
+.bodyContent {
+    background-color: #282c34;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+.icons {
+    background-color: #21252b;
+    position: absolute;
+    visibility: inherit;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 540px;
+    border-radius: 25px;
+    width: 400px;
+    height: 100px;
+}
+
+.fab-icon-1 {
+    visibility: inherit;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.fab-icon-2 {
+    visibility: inherit;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.fab-icon-3 {
+    visibility: inherit;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.fab-icon-4 {
+    visibility: inherit;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.fab-icon-5 {
+    visibility: inherit;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.fab-icon-1:hover {
+    color: #6e5494;
+}
+
+.fab-icon-2:hover {
+    color: #1DA1F2;
+}
+
+.fab-icon-3:hover {
+    color: #6441a5;
+}
+
+.fab-icon-4:hover {
+    color: #FFFFFF;
+}
+
+.fab-icon-5:hover {
+    color: #d8407c;
+}
+
+#macroDonaldsImg {
+    display: table;
+    width: auto;
+    height: auto;
+    position: absolute;
+    inset: auto auto auto auto;
+    z-index: 0;
+    height: 450px;
+}
+
+.createdBy {
+    display: flex;
+    visibility: inherit;
+    background-color: #21252b;
+    width: 250px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 4;
+}
+
+.createdByText {
+    visibility: inherit;
+    display: flex;
+    color: black;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    font-family: sans-serif, monospace;
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
+}
+
+.creditsButton {
+    background-color: #282c34;
+    display: inline-table;
+    height: 75px;
+    width: 150px;
+    padding: 0;
+    border: none;
+    position: fixed;
+    border-radius: 30px;
+    text-align: center;
+    inset: auto auto 2rem 4rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: goldenrod;
+    font-family: 'gill sans';
+    font-size: 35px;
+    cursor: pointer;
+    transition: .2s linear;
+    z-index: 7;
+}
+
+.creditsButton:hover {
+    background-color: #1b202b;
+    color: #644a09;
+}
+
+.creditContainer {
+    visibility: hidden;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    display: flex;
+    z-index: 6;
+}
+
+.leftSide {
+    position: absolute;
+    background-color: inherit;
+    filter: brightness(85%);
+    display: block;
+    width: 25%;
+    height: 90%;
+    inset: 5% auto auto 10%;
+    border-radius: 50px;
+    z-index: 6;
+}
+
+.rightSide {
+    position: absolute;
+    background-color: inherit;
+    filter: brightness(85%);
+    display: block;
+    width: 25%;
+    height: 90%;
+    inset: 5% 10% auto auto;
+    border-radius: 50px;
+    z-index: 6;
+}
+
+.sideContentHead {
+    font-size: 45px;
+    text-align: center;
+    user-select: text;
+    filter: brightness(100%);
+    color: goldenrod;
+    font-family: Helvetica;
+    font-weight: bold;
+    cursor: text;
+}
+
+.textUnderline {
+    background-color: goldenrod;
+    position: absolute;
+    display: block;
+    height: 7px;
+    inset: 125% auto auto auto;
+    cursor: default;
+    user-select: none;
+    width: 100%;
+}
+
+.sideContent {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 10px;
+    text-indent: 25px;
+    filter: brightness(100%);
+    font-family: Helvetica;
+    color: goldenrod;
+    filter: brightness(90%);
+    font-weight: normal;
+    user-select: text;
+    cursor: text;
+}

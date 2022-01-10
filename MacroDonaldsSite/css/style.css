@@ -1,44 +1,44 @@
 body {
     background-color: #21252b;
     overflow: hidden;
-    padding: 50px;
-    padding-top: 10px;
+    padding: 5vh;
+    padding-top: 1vh;
     user-select: none;
 }
 
 .HeadBox {
     background-color: #282c34;
     width: 100%;
-    height: 200px;
-    padding-top: 25px;
+    height: 20vh;
+    padding-top: 2.5vh;
 }
 
 .TitleDisplay {
     background-color: #262a31;
     display: inline-block;
-    margin-left: 50px;
-    width: 300px;
-    height: 150px;
+    margin-left: 5vh;
+    width: 15vw;
+    height: 15vh;
 }
 
 .titleHeader {
     background-color: inherit;
     display: table;
     margin: auto;
-    margin-top: 15px;
-    padding-top: 35px;
+    margin-top: 1.5vh;
+    padding-top: 3.5vh;
     color: goldenrod;
     font-family: sans-serif, monospace;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 4vh;
     cursor: pointer;
 }
 
 .barHighlight {
     width: 100%;
-    height: 10px;
+    height: 1vh;
     display: block;
-    margin-top: 40px;
+    margin-top: 4vh;
     margin-left: 0px;
     transition: width .25s linear;
     background-color: goldenrod;
@@ -47,7 +47,7 @@ body {
 .underline {
     background-color: goldenrod;
     display: block;
-    height: 7px;
+    height: .7vh;
     margin: 0 auto;
     width: 0;
     border-radius: 90%;
@@ -74,37 +74,37 @@ a:active {
     background-color: #262a31;
     display: inline-block;
     margin: 0 auto;
-    margin-left: 10px;
-    width: 450px;
-    height: 150px;
+    margin-left: 1vh;
+    width: 24.4vw;
+    height: 15vh;
 }
 
 .ExtraValue {
     background-color: #262a31;
     display: inline-block;
     margin: 0 auto;
-    margin-left: 10px;
-    width: 450px;
-    height: 150px;
+    margin-left: 1vh;
+    width: 24.4vw;
+    height: 15vh;
 }
 
 .Desserts {
     background-color: #262a31;
     display: inline-block;
     margin: 0 auto;
-    margin-left: 10px;
-    width: 450px;
-    height: 150px;
+    margin-left: 1vh;
+    width: 24.4vw;
+    height: 15vh;
 }
 
 .bodyContent {
     background-color: #282c34;
-    margin-top: 50px;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 650px;
+    height: 68.5vh;
 }
 
 .icons {
@@ -114,19 +114,19 @@ a:active {
     z-index: 3;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 540px;
-    border-radius: 25px;
-    width: 400px;
-    height: 100px;
+    margin-top: 56vh;
+    border-radius: 2.5vh;
+    width: 20vw;
+    height: 10vh;
 }
 
 .fab-icon-1 {
     visibility: inherit;
     display: inline-block;
     text-align: center;
-    font-size: 50px;
-    margin-top: 25px;
-    margin-left: 50px;
+    font-size: 5vh;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
     cursor: pointer;
     color: black;
     transition: 0.5s ease-in-out;
@@ -136,8 +136,8 @@ a:active {
     visibility: inherit;
     display: inline-block;
     text-align: center;
-    font-size: 50px;
-    margin-left: 10px;
+    font-size: 5vh;
+    margin-left: 1vh;
     cursor: pointer;
     color: black;
     transition: 0.5s ease-in-out;
@@ -147,8 +147,8 @@ a:active {
     visibility: inherit;
     display: inline-block;
     text-align: center;
-    font-size: 50px;
-    margin-left: 10px;
+    font-size: 5vh;
+    margin-left: 1vh;
     cursor: pointer;
     color: black;
     transition: 0.5s ease-in-out;
@@ -158,8 +158,8 @@ a:active {
     visibility: inherit;
     display: inline-block;
     text-align: center;
-    font-size: 50px;
-    margin-left: 10px;
+    font-size: 5vh;
+    margin-left: 1vh;
     cursor: pointer;
     color: black;
     transition: 0.5s ease-in-out;
@@ -169,8 +169,8 @@ a:active {
     visibility: inherit;
     display: inline-block;
     text-align: center;
-    font-size: 50px;
-    margin-left: 10px;
+    font-size: 5vh;
+    margin-left: 1vh;
     cursor: pointer;
     color: black;
     transition: 0.5s ease-in-out;
@@ -204,19 +204,19 @@ a:active {
     inset: auto auto auto auto;
     user-select: none;
     z-index: 0;
-    height: 450px;
+    height: 45vh;
 }
 
 .createdBy {
     display: flex;
     visibility: inherit;
     background-color: #21252b;
-    width: 250px;
-    height: 50px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    width: 14vw;
+    height: 5vh;
+    border-top-left-radius: 2.5vh;
+    border-top-right-radius: 2.5vh;
     position: absolute;
-    margin-top: 500px;
+    margin-top: 51vh;
     margin-left: auto;
     margin-right: auto;
     z-index: 4;
@@ -226,10 +226,10 @@ a:active {
     visibility: inherit;
     display: flex;
     color: black;
-    font-size: 14px;
+    font-size: 1.4vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 1.5vh;
     font-family: sans-serif, monospace;
     font-weight: bold;
     cursor: default;
@@ -239,19 +239,19 @@ a:active {
 .creditsButton {
     background-color: #282c34;
     display: inline-table;
-    height: 75px;
-    width: 150px;
+    height: 7.5vh;
+    width: 7.5vw;
     padding: 0;
     border: none;
     position: fixed;
-    border-radius: 30px;
+    border-radius: 3vh;
     text-align: center;
     inset: auto auto 2rem 4rem;
     font-weight: bolder;
-    letter-spacing: 1px;
+    letter-spacing: .1vh;
     color: goldenrod;
     font-family: 'gill sans';
-    font-size: 35px;
+    font-size: 3.5vh;
     cursor: pointer;
     transition: .2s linear;
     z-index: 7;
@@ -267,7 +267,7 @@ a:active {
     position: absolute;
     background-color: transparent;
     width: 100%;
-    height: 650px;
+    height: 65vh;
     justify-content: center;
     display: flex;
     z-index: 6;
@@ -281,7 +281,7 @@ a:active {
     width: 25%;
     height: 90%;
     inset: 5% auto auto 10%;
-    border-radius: 50px;
+    border-radius: 5vh;
     z-index: 6;
 }
 
@@ -293,12 +293,12 @@ a:active {
     width: 25%;
     height: 90%;
     inset: 5% 10% auto auto;
-    border-radius: 50px;
+    border-radius: 5vh;
     z-index: 6;
 }
 
 .sideContentHead {
-    font-size: 45px;
+    font-size: 4.5vh;
     text-align: center;
     user-select: text;
     filter: brightness(100%);
@@ -312,7 +312,7 @@ a:active {
     background-color: goldenrod;
     position: absolute;
     display: block;
-    height: 7px;
+    height: .7vh;
     inset: 125% auto auto auto;
     cursor: default;
     user-select: none;
@@ -320,11 +320,11 @@ a:active {
 }
 
 .sideContent {
-    font-size: 20px;
+    font-size: 2vh;
     text-align: left;
-    margin-left: 25px;
-    margin-right: 10px;
-    text-indent: 25px;
+    margin-left: 2.5vh;
+    margin-right: 1vh;
+    text-indent: 2.5vh;
     filter: brightness(100%);
     font-family: Helvetica;
     color: goldenrod;

@@ -202,6 +202,7 @@ a:active {
     height: auto;
     position: absolute;
     inset: auto auto auto auto;
+    user-select: none;
     z-index: 0;
     height: 450px;
 }

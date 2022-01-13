@@ -247,7 +247,7 @@ a:active {
     position: fixed;
     border-radius: 3vh;
     text-align: center;
-    inset: auto auto 2rem 4rem;
+    inset: auto auto 3vh 6.5vh;
     font-weight: bolder;
     letter-spacing: .1vh;
     color: goldenrod;
@@ -261,6 +261,11 @@ a:active {
 .creditsButton:hover {
     background-color: #1b202b;
     color: #644a09;
+}
+
+.creditsButton:active {
+    transition: 0s;
+    color: goldenrod;
 }
 
 .creditContainer {
